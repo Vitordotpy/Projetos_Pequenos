@@ -24,7 +24,8 @@ class ChuteoNumero:
                     print('Parabens!')
         except:
             print('Apenas digite números entre 1 e 100')
-            self.Iniciar()1
+            self.Iniciar()
+            
     def PedirValorAleatorio(self):
         self.valor_do_chute = input('Chute um numero')
 
