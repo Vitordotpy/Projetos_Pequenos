@@ -1,5 +1,6 @@
-# jogo de aventura
-# a historia caminha de acordo com suas escolhas
+# jogo de Terror
+# Jogo de terror, respostas somente (Sim) ou (Não), resposta errada resulta em sua morte e no fim do jogo.
+
 import random
 
 class Game:
