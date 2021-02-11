@@ -1,6 +1,6 @@
 #chute o numero
 import random
-import PySimpleGui as sg
+import PySimpleGUI as sg
 
 class ChuteoNumero:
     def __init__(self):
@@ -18,7 +18,7 @@ class ChuteoNumero:
             [sg.Output(size=(20,10))]
         ]
         #screen
-        self.screen = sg.Window('Chute o número!', Layout=layout)
+        self.screen = sg.Window('Chute o número!', layout=layout)
         self.GerarNumeroAleatorio()
         try:
             while True:
