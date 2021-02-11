@@ -26,7 +26,7 @@ class ChuteoNumero:
                 self.evento, self.valores = self.screen.Read()
                 #todo
                 if self.evento == 'Chutar!':
-                    self.valor_do_chute = self.valroes['ValorChute']
+                    self.valor_do_chute = self.valores['ValorChute']
                     while self.tentar_novamente == True:
                         if int(self.valor_do_chute) > self.valor_aleatorio:
                             print('Chute um valor mais baixo')
@@ -41,9 +41,6 @@ class ChuteoNumero:
         except:
             print('Apenas digite números entre 1 e 100')
             self.Iniciar()
-
-    def PedirValorAleatorio(self):
-        self.valor_do_chute = input('Chute um numero')
 
     def GerarNumeroALeatorio(self):
         self.valor_aleatorio = random.randint(self.valor_minimo,self.valor_maximo)
